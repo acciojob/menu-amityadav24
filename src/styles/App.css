@@ -1,12 +1,31 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+#main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.button-container {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
 }
